@@ -25,26 +25,33 @@ The aim of this project is to:
 
 
 ## Hypothesis and how to validate?
-General hypothesis is that GDP is expected to have a positive linear correlation with CO2 emissions. Higher GDP is expected to be linked to higher CO2 emissions, due to the environmental impacts of a rising economy. <br><br>
-This hypothesis can be tested by creating visualisation using the given dataset. Statistical graphs such as scatter plots and histograms can be used to show existing trends and patterns within the dataset.
+General hypothesis is that GDP is expected to have a positive linear correlation with CO2 emissions. Higher GDP is expected to be linked to higher CO2 emissions, due to the environmental impacts of a rising economy. CO2 emissions can also have a positive correlation to population of a country due to the large demands for industries and transportation.<br><br>
+
+This hypothesis can be tested by creating visualisation using the given dataset. Statistical graphs such as scatter plots and line plots can be used to show existing trends and patterns within the dataset. Analyse correlation between CO2 and GDP as well as their correlation with other features.
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* The dataset was processed and manipulated using the pandas libary.
+* During the ETL process, the data was extracted from the CSV file onto a pandas DataFrame.
+* The data was then cleaned and processed then saved as a CSV file.
+* The processed dataset was then extracted and manipulated for visualisation.
+* The visualised data can then be used to draw a final conclusion on the initial hypothesis.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* Data Visualisations should aim to explore relationship between GDP and CO2.
+* Visualised data should highlight relative features (GDP, CO2, Population).
+* Visualisations should help drawing conclusions on the data.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* ETL pipeline was used to clean data and process it into a more usable format.
+* Data visualisation was used to identify existing patterns of the data.
+* Exploratory Analysis was used to summarise key characteristics oof the data.
+* Descriptive Analysis was used to find past trends.
+* Generative AI was used to help debug and improve code optimisation.
 
-## Ethical considerations
+
+<!-- ## Ethical considerations
 * Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+* How did you overcome any legal or societal issues? -->
 
 <!-- ## Dashboard Design
 * List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
@@ -53,13 +60,16 @@ This hypothesis can be tested by creating visualisation using the given dataset.
 * Explain how the dashboard was designed to communicate complex data insights to different audiences.  -->
 
 ## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+* Plotly generated graphs not displaying on github
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+* I faced challenges plotting meaningful data.
+* The volume of data from the full dataset was overwhelming
+* I struggled to document my work whilst staying on deadlines.
+
+In the future I hope to:
+* Improve my ability to handle large datasets.
+* Improve data transformation skills to help transform datasets into versions easier to work with.
 
 <!-- ## Deployment
 ### Heroku
@@ -86,21 +96,21 @@ This hypothesis can be tested by creating visualisation using the given dataset.
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Data source: https://www.kaggle.com/datasets/mackness/global-gdp-and-co-emissions-dataset-19602022?resource=download
 
-### Content 
+<!-- ### Content 
 
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) -->
 
-### Media
+<!-- ### Media
 
 - The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
+- The images used for the gallery page were taken from this other open-source site -->
 
 
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+Thank you to:
+* Dataset Author: [Katlyn Goeujon-Mackness](https://www.kaggle.com/mackness)
