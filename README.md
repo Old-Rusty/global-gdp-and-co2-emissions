@@ -10,7 +10,7 @@ The original dataset used in this project can be found in "dataset\raw\gdp_co2_b
 This is a precleaned dataset from kaggle
 #### Original Dataset
 Dataset source: https://www.kaggle.com/datasets/mackness/global-gdp-and-co-emissions-dataset-19602022?resource=download<br>
-Author: Katlyn Goeujon-Mackness<br>
+Author: [Katlyn Goeujon-Mackness](https://www.kaggle.com/mackness)<br>
 Licence: [MIT License]
 
 This dataset consists of records of CO2 emissions and various economic indicators of over 180 different countries from 1960 to 2022. 
