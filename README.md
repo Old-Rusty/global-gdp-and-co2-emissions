@@ -25,7 +25,7 @@ The aim of this project is to:
 
 
 ## Hypothesis and how to validate?
-GDP is expected to have a positive linear correlation with CO2 emissions. Higher GDP is expected to be linked to higher CO2 emissions, due to the environmental impacts of a rising economy. <br><br>
+General hypothesis is that GDP is expected to have a positive linear correlation with CO2 emissions. Higher GDP is expected to be linked to higher CO2 emissions, due to the environmental impacts of a rising economy. <br><br>
 This hypothesis can be tested by creating visualisation using the given dataset. Statistical graphs such as scatter plots and histograms can be used to show existing trends and patterns within the dataset.
 
 ## Project Plan
@@ -77,7 +77,11 @@ This hypothesis can be tested by creating visualisation using the given dataset.
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* NumPy
+* pandas
+* Matplotlib
+* Seaborn
+* Plotly
 
 
 ## Credits 
